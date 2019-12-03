@@ -102,9 +102,9 @@ $( ".category-cover" ).wrap( "<div class='principal_categoria'></div>" );
 
 $(document).ready(function(){
 	$(window).on('scroll', function(){
-	    if ( $(window).scrollTop() > 100 ){
+	    if ( $(window).scrollTop() > 1 ){
 			$('.lenin_header').addClass('lenin_header_fixed');
-		} else if ( $(window).scrollTop() <= 0 ){
+		} else {
 			$('.lenin_header').removeClass('lenin_header_fixed');
 
 		}
