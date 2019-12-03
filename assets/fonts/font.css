@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'FuturaBT-MediumCondensed';
+  src: url('FuturaBT-MediumCondensed.eot');
+  src: url('FuturaBT-MediumCondensed.eot?#iefix') format('embedded-opentype'),
+       url('FuturaBT-MediumCondensed.ttf') format('truetype'),
+       url('FuturaBT-MediumCondensed.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
