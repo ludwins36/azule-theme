@@ -104,7 +104,7 @@ $(document).ready(function(){
 	$(window).on('scroll', function(){
 	    if ( $(window).scrollTop() > 100 ){
 			$('.lenin_header').addClass('lenin_header_fixed');
-		} else if ( $(window).scrollTop() < 10 ){
+		} else if ( $(window).scrollTop() <= 0 ){
 			$('.lenin_header').removeClass('lenin_header_fixed');
 
 		}
